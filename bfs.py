@@ -27,7 +27,7 @@ def bfs(name):
                     queue.append(item)
     print("No mango sellers!")
     return False
-    
+
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
 graph["bob"] = ["anuj", "peggy"]

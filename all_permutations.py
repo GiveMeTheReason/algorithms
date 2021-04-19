@@ -17,5 +17,10 @@ def generate_numbers(N, M=None, prefix=None):
         prefix.pop()
 
 l = []
-generate_numbers(3)  # ['012', '021', '102', '120', '201', '210']
-print(l)
+generate_numbers(4)  # ['012', '021', '102', '120', '201', '210']
+c = 0
+for i in range(len(l)):
+    if l[i][0] == '0':
+        print(l[i])
+        c += 1
+print(c)

@@ -14,5 +14,5 @@ def generate_numbers(N, M, prefix=None):
         prefix.pop()
 
 l = []
-generate_numbers(3, 2)  # ['00', '01', '02', '10', '11', '12', '20', '21', '22']
+generate_numbers(2, 3)  # ['00', '01', '02', '10', '11', '12', '20', '21', '22']
 print(l)
